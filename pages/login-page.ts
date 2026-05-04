@@ -8,8 +8,9 @@ export class LoginPage {
 
     constructor(page: Page) {
         this.page = page;
-        this.usernameInput = page.getByRole('textbox', { name: 'Usuario Documento Nro Str' });
-        this.passwordInput = page.getByRole('textbox', { name: 'User Password' });
+        // Cambiar los selectores si son diferentes en tu aplicación GeneXus
+        this.usernameInput = page.getByPlaceholder('Número de Documento');
+        this.passwordInput = page.locator('input[name="vUSERPASSWORD"]');
         this.loginButton = page.getByRole('button', { name: 'Iniciar sesión' });
     }
 
@@ -22,13 +23,5 @@ export class LoginPage {
 
     async loginAsAdmin() {
         await this.login(process.env.ADMIN_USER!, process.env.ADMIN_PASSWORD!);
-    }
-
-    async loginWithWrongUser() {
-        await this.login(process.env.WRONG_USER!, process.env.ADMIN_PASSWORD!);
-    }
-
-    async loginWithWrongPassword() {
-        await this.login(process.env.ADMIN_USER!, process.env.WRONG_PASSWORD!);
     }
 }
