@@ -1,0 +1,234 @@
+- generic [ref=e2]:
+  - button "Submit" [disabled] [ref=e3]
+  - generic [ref=e8]:
+    - generic [ref=e10]:
+      - table [ref=e12]:
+        - rowgroup [ref=e13]:
+          - row [ref=e14]:
+            - cell [ref=e15]
+      - generic [ref=e57]:
+        - button "Mi Cuenta" [ref=e187] [cursor=pointer]: Mi Cuenta
+        - text:  
+      - link "" [ref=e19] [cursor=pointer]:
+        - /url: javascript:void(0)
+        - generic [ref=e20]: 
+    - generic [ref=e23]:
+      - generic [ref=e28]: Rubro
+      - generic [ref=e173]:
+        - generic [ref=e193]:
+          - generic [ref=e197]:
+            - button "Excel" [ref=e199] [cursor=pointer]
+            - generic [ref=e201]:
+              - button "Selecciona columnas" [ref=e494] [cursor=pointer]: Selecciona columnas
+              - text:     
+          - table [ref=e205]:
+            - rowgroup [ref=e206]:
+              - row " CUOTA" [ref=e490]:
+                - cell "" [ref=e208]:
+                  - generic [ref=e209]:
+                    - button "" [ref=e210] [cursor=pointer]:
+                      - generic [ref=e211]: 
+                    - text:  
+                - cell "CUOTA" [ref=e491]:
+                  - table [ref=e214]:
+                    - rowgroup [ref=e215]:
+                      - row "CUOTA" [ref=e492]:
+                        - cell "CUOTA" [ref=e493]:
+                          - textbox "Filter Full Text" [active] [ref=e219]:
+                            - /placeholder: Buscar
+                            - text: CUOTA
+        - generic [ref=e180]:
+          - table [ref=e496]:
+            - rowgroup [ref=e497]:
+              - row "Id Nombre Importe Ultima Actualización Activo " [ref=e498]:
+                - columnheader [ref=e499]
+                - columnheader "Id" [ref=e500]:
+                  - generic [ref=e501]: Id
+                - columnheader "Nombre" [ref=e502]:
+                  - generic [ref=e503]: Nombre
+                - columnheader "Importe" [ref=e504]:
+                  - generic [ref=e505]: Importe
+                - columnheader "Ultima Actualización" [ref=e506]:
+                  - generic [ref=e507]: Ultima Actualización
+                - columnheader "Activo " [ref=e508]:
+                  - generic [ref=e510]:
+                    - generic [ref=e511]: Activo
+                    - generic [ref=e512]:
+                      - button "" [ref=e513] [cursor=pointer]:
+                        - generic [ref=e514]: 
+                      - text:   
+            - rowgroup [ref=e515]:
+              - row ";fa fa-bars 1 CUOTA SOCIAL 0,00 27/04/26 11:13" [ref=e516]:
+                - cell ";fa fa-bars" [ref=e517]:
+                  - generic [ref=e518]:
+                    - combobox:
+                      - option ";fa fa-bars" [selected]
+                      - option "Visualizar;fa fa-search"
+                    - combobox [ref=e519] [cursor=pointer]:
+                      - generic [ref=e522]: 
+                - cell "1" [ref=e524]:
+                  - paragraph [ref=e525]:
+                    - generic [ref=e526]: "1"
+                - cell "CUOTA SOCIAL" [ref=e527]:
+                  - paragraph [ref=e528]:
+                    - generic [ref=e529]: CUOTA SOCIAL
+                - cell "0,00" [ref=e530]:
+                  - paragraph [ref=e531]:
+                    - generic [ref=e532]: 0,00
+                - cell "27/04/26 11:13" [ref=e533]:
+                  - paragraph [ref=e534]:
+                    - generic [ref=e535]: 27/04/26 11:13
+                - cell [ref=e536]:
+                  - generic:
+                    - checkbox [checked] [disabled]: 
+              - row ";fa fa-bars 6 CUOTA SOCIAL DEUDA 0,00 27/04/26 11:13" [ref=e537]:
+                - cell ";fa fa-bars" [ref=e538]:
+                  - generic [ref=e539]:
+                    - combobox:
+                      - option ";fa fa-bars" [selected]
+                      - option "Visualizar;fa fa-search"
+                    - combobox [ref=e540] [cursor=pointer]:
+                      - generic [ref=e543]: 
+                - cell "6" [ref=e545]:
+                  - paragraph [ref=e546]:
+                    - generic [ref=e547]: "6"
+                - cell "CUOTA SOCIAL DEUDA" [ref=e548]:
+                  - paragraph [ref=e549]:
+                    - generic [ref=e550]: CUOTA SOCIAL DEUDA
+                - cell "0,00" [ref=e551]:
+                  - paragraph [ref=e552]:
+                    - generic [ref=e553]: 0,00
+                - cell "27/04/26 11:13" [ref=e554]:
+                  - paragraph [ref=e555]:
+                    - generic [ref=e556]: 27/04/26 11:13
+                - cell [ref=e557]:
+                  - generic:
+                    - checkbox [checked] [disabled]: 
+              - row ";fa fa-bars 509 CUOTA COMPLEMENTO 0,00 27/04/26 11:13" [ref=e558]:
+                - cell ";fa fa-bars" [ref=e559]:
+                  - generic [ref=e560]:
+                    - combobox:
+                      - option ";fa fa-bars" [selected]
+                      - option "Visualizar;fa fa-search"
+                    - combobox [ref=e561] [cursor=pointer]:
+                      - generic [ref=e564]: 
+                - cell "509" [ref=e566]:
+                  - paragraph [ref=e567]:
+                    - generic [ref=e568]: "509"
+                - cell "CUOTA COMPLEMENTO" [ref=e569]:
+                  - paragraph [ref=e570]:
+                    - generic [ref=e571]: CUOTA COMPLEMENTO
+                - cell "0,00" [ref=e572]:
+                  - paragraph [ref=e573]:
+                    - generic [ref=e574]: 0,00
+                - cell "27/04/26 11:13" [ref=e575]:
+                  - paragraph [ref=e576]:
+                    - generic [ref=e577]: 27/04/26 11:13
+                - cell [ref=e578]:
+                  - generic:
+                    - checkbox [checked] [disabled]: 
+            - rowgroup
+          - generic [ref=e452]:
+            - list [ref=e580]:
+              - listitem [ref=e581]:
+                - generic [ref=e582]: Ant
+              - listitem [ref=e583]:
+                - link "1" [ref=e584]:
+                  - /url: "#"
+              - listitem [ref=e585]:
+                - generic [ref=e586]: Sig
+            - button "Página 1 de 1" [ref=e589] [cursor=pointer]
+    - generic [ref=e132]:
+      - generic [ref=e134]:
+        - textbox "Buscar opción del menú..." [ref=e135]
+        - generic [ref=e136]: 
+        - text: 
+      - list [ref=e138]:
+        - listitem [ref=e139]: Opciones
+        - listitem
+        - listitem [ref=e140]:
+          - link " Inicio" [ref=e141] [cursor=pointer]:
+            - /url: com.bigua.serviciosmedicos.homeserviciosmedicos
+            - generic [ref=e142]: 
+            - text: Inicio
+        - listitem
+        - listitem [ref=e143]:
+          - link " Reservar turno" [ref=e144] [cursor=pointer]:
+            - /url: com.bigua.serviciosmedicos.wpreservarturno
+            - generic [ref=e145]: 
+            - text: Reservar turno
+        - listitem
+        - listitem [ref=e146]:
+          - link " Mi agenda" [ref=e147] [cursor=pointer]:
+            - /url: com.bigua.serviciosmedicos.consultainscripcionmiagendaww
+            - generic [ref=e148]: 
+            - text: Mi agenda
+        - listitem
+        - listitem [ref=e149]:
+          - link " Turnos" [ref=e150] [cursor=pointer]:
+            - /url: com.bigua.serviciosmedicos.turnoespecialidadlistww
+            - generic [ref=e151]: 
+            - text: Turnos
+        - listitem
+        - listitem [ref=e152]:
+          - link " Generar Turnos" [ref=e153] [cursor=pointer]:
+            - /url: com.bigua.serviciosmedicos.wpcrearturnos
+            - generic [ref=e154]: 
+            - text: Generar Turnos
+        - listitem
+        - listitem [ref=e155]:
+          - link " Inscripciones" [ref=e156] [cursor=pointer]:
+            - /url: com.bigua.serviciosmedicos.consultainscripcionww
+            - generic [ref=e157]: 
+            - text: Inscripciones
+        - listitem [ref=e158]:
+          - link " Catálogos " [ref=e159] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=e160]: 
+            - text: Catálogos
+            - generic [ref=e161]: 
+          - list [ref=e472]:
+            - listitem
+            - listitem [ref=e473]:
+              - link "Agrupador" [ref=e474] [cursor=pointer]:
+                - /url: com.bigua.serviciosmedicos.turnoagrupadorww
+            - listitem
+            - listitem [ref=e475]:
+              - link "Categorias Socios" [ref=e476] [cursor=pointer]:
+                - /url: com.bigua.backoffice.categoriasocioww
+            - listitem
+            - listitem [ref=e477]:
+              - link "Consultorios" [ref=e478] [cursor=pointer]:
+                - /url: com.bigua.serviciosmedicos.consultorioww
+            - listitem
+            - listitem [ref=e479]:
+              - link "Especialidades" [ref=e480] [cursor=pointer]:
+                - /url: com.bigua.serviciosmedicos.especialidadww
+            - listitem
+            - listitem [ref=e481]:
+              - link "Especialistas" [ref=e482] [cursor=pointer]:
+                - /url: com.bigua.serviciosmedicos.especialistaww
+            - listitem
+            - listitem [ref=e483]:
+              - link "Planteles Deportivos" [ref=e484] [cursor=pointer]:
+                - /url: com.bigua.serviciosmedicos.plantelww
+            - listitem
+            - listitem [ref=e485]:
+              - link "Productos y Servicios" [ref=e486] [cursor=pointer]:
+                - /url: com.bigua.serviciosmedicos.productoww
+            - listitem
+            - listitem [ref=e487]:
+              - link "Rubros" [ref=e488] [cursor=pointer]:
+                - /url: com.bigua.serviciosmedicos.rubroww
+        - listitem [ref=e162]:
+          - link " Seguridad " [ref=e163] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=e164]: 
+            - text: Seguridad
+            - generic [ref=e165]: 
+          - text:          
+        - listitem
+        - listitem [ref=e166]:
+          - link "Cerrar sesión" [ref=e167] [cursor=pointer]:
+            - /url: com.bigua.serviciosmedicos.ingresoserviciosmedicos
+    - generic [ref=e47]: Biguá 2022

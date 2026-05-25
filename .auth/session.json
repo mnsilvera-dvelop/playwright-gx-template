@@ -1,0 +1,127 @@
+{
+  "cookies": [
+    {
+      "name": "JSESSIONID",
+      "value": "057FAF97C921A03CC47205E207C36085",
+      "domain": "aks.dvelopsoftware.net",
+      "path": "/biguasmbackofficetest",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "GAMSessionGUID",
+      "value": "5db972a8-911a-4b99-a7ab-c81d8dac9edc",
+      "domain": "aks.dvelopsoftware.net",
+      "path": "/biguasmbackofficetest",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "GX_CLIENT_ID",
+      "value": "c7a65de2-0c5d-4127-8dcc-2d93d3d88531",
+      "domain": "aks.dvelopsoftware.net",
+      "path": "/",
+      "expires": 1814282543.511239,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "GxTZOffset",
+      "value": "America/Montevideo",
+      "domain": "aks.dvelopsoftware.net",
+      "path": "/",
+      "expires": 1811258543,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "cf_clearance",
+      "value": "5TNdsmM_IhXqaxMo2qZX7ahfGHyHq4AcUmeioXFCAMU-1779722544-1.2.1.1-larfN1nC.YZxR80juXyPOQ.0CsSKTc_MxHN_mcrBDYOPaJMbMcse8EiWzmv2rOedIBuygp6cdsxGgv3A0Ky3V.OPJvFAwIsqgPzrCBxYNpOI2nsnGpEI9omExfIbcid00mQYxW6_WZNHZ2dSKE7ikmk5_Par959pewmGulUnLiY1yGrco214XvfsRQ9BqxIfvv1uffkuw92XhSNgU5gkCzc1ifH8PabxJyQYTlbwRBGkFoA9tkRgyK_fDSO9mgIA1f3V1DUoG07FnLajTR1fkulkyEDXtLQdKHKE6gFP6jKlkyYjmdwC_CSqmwuRNMgU.RCZZPWLzE7qTi16WAQ8wg",
+      "domain": ".dvelopsoftware.net",
+      "path": "/",
+      "expires": 1811258544.142769,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None",
+      "partitionKey": "https://dvelopsoftware.net",
+      "_crHasCrossSiteAncestor": false
+    },
+    {
+      "name": "__utma",
+      "value": "127258269.626431915.1779722551.1779722551.1779722551.1",
+      "domain": ".aks.dvelopsoftware.net",
+      "path": "/",
+      "expires": 1814282551.426659,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__utmc",
+      "value": "127258269",
+      "domain": ".aks.dvelopsoftware.net",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__utmz",
+      "value": "127258269.1779722551.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)",
+      "domain": ".aks.dvelopsoftware.net",
+      "path": "/",
+      "expires": 1795490551,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__utmt",
+      "value": "1",
+      "domain": ".aks.dvelopsoftware.net",
+      "path": "/",
+      "expires": 1779723151,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "DVelopBootstrap_SidebarMenuSelected_aks.dvelopsoftware.net_biguasmbackofficetest",
+      "value": "2",
+      "domain": "aks.dvelopsoftware.net",
+      "path": "/",
+      "expires": 1811258551,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "DVelopBootstrap_SidebarMenu_State_aks.dvelopsoftware.net_biguasmbackofficetest",
+      "value": "E",
+      "domain": "aks.dvelopsoftware.net",
+      "path": "/",
+      "expires": 1811258551,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "__utmb",
+      "value": "127258269.2.10.1779722551",
+      "domain": ".aks.dvelopsoftware.net",
+      "path": "/",
+      "expires": 1779724351,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": []
+}

@@ -1,0 +1,411 @@
+- generic [ref=e2]:
+  - button "Submit" [disabled] [ref=e3]
+  - generic [ref=e9]:
+    - generic [ref=e11]:
+      - table [ref=e13]:
+        - rowgroup [ref=e14]:
+          - row [ref=e15]:
+            - cell [ref=e16]
+      - generic [ref=e20]:
+        - button "Mi Cuenta" [ref=e21] [cursor=pointer]: Mi Cuenta
+        - text:  
+      - link "" [ref=e25] [cursor=pointer]:
+        - /url: javascript:void(0)
+        - generic [ref=e26]: 
+    - generic [ref=e29]:
+      - generic [ref=e34]: Rubro
+      - generic [ref=e43]:
+        - generic [ref=e50]:
+          - generic [ref=e54]:
+            - button "Excel" [ref=e56] [cursor=pointer]
+            - generic [ref=e58]:
+              - button "Selecciona columnas" [ref=e59] [cursor=pointer]: Selecciona columnas
+              - text:     
+          - table [ref=e62]:
+            - rowgroup [ref=e63]:
+              - row "" [ref=e64]:
+                - cell "" [ref=e65]:
+                  - generic [ref=e66]:
+                    - button "" [ref=e67] [cursor=pointer]:
+                      - generic [ref=e68]: 
+                    - text:  
+                - cell [ref=e70]:
+                  - table [ref=e71]:
+                    - rowgroup [ref=e72]:
+                      - row [ref=e73]:
+                        - cell [ref=e74]:
+                          - textbox "Filter Full Text" [ref=e76]:
+                            - /placeholder: Buscar
+        - generic [ref=e81]:
+          - table [ref=e85]:
+            - rowgroup [ref=e86]:
+              - row "Id Nombre Importe Ultima Actualización Activo " [ref=e87]:
+                - columnheader [ref=e88]
+                - columnheader "Id" [ref=e89]:
+                  - generic [ref=e90]: Id
+                - columnheader "Nombre" [ref=e91]:
+                  - generic [ref=e92]: Nombre
+                - columnheader "Importe" [ref=e93]:
+                  - generic [ref=e94]: Importe
+                - columnheader "Ultima Actualización" [ref=e95]:
+                  - generic [ref=e96]: Ultima Actualización
+                - columnheader "Activo " [ref=e97]:
+                  - generic [ref=e99]:
+                    - generic [ref=e100]: Activo
+                    - generic [ref=e101]:
+                      - button "" [ref=e407] [cursor=pointer]:
+                        - generic [ref=e408]: 
+                      - text:   
+            - rowgroup [ref=e104]:
+              - row ";fa fa-bars 1 CUOTA SOCIAL 0,00 27/04/26 11:13" [ref=e105]:
+                - cell ";fa fa-bars" [ref=e106]:
+                  - generic [ref=e107]:
+                    - combobox:
+                      - option ";fa fa-bars" [selected]
+                      - option "Visualizar;fa fa-search"
+                    - combobox [expanded] [active] [ref=e108] [cursor=pointer]:
+                      - generic [ref=e111]: 
+                      - listbox [ref=e409]:
+                        - option " Visualizar" [ref=e410]:
+                          - generic [ref=e411]: 
+                          - generic [ref=e412]: Visualizar
+                - cell "1" [ref=e113]:
+                  - paragraph [ref=e114]:
+                    - generic [ref=e115]: "1"
+                - cell "CUOTA SOCIAL" [ref=e116]:
+                  - paragraph [ref=e117]:
+                    - generic [ref=e118]: CUOTA SOCIAL
+                - cell "0,00" [ref=e119]:
+                  - paragraph [ref=e120]:
+                    - generic [ref=e121]: 0,00
+                - cell "27/04/26 11:13" [ref=e122]:
+                  - paragraph [ref=e123]:
+                    - generic [ref=e124]: 27/04/26 11:13
+                - cell [ref=e125]:
+                  - generic:
+                    - checkbox [checked] [disabled]: 
+              - row ";fa fa-bars 2 CARNE SOCIAL 390,00 27/04/26 11:13" [ref=e126]:
+                - cell ";fa fa-bars" [ref=e127]:
+                  - generic [ref=e128]:
+                    - combobox:
+                      - option ";fa fa-bars" [selected]
+                      - option "Visualizar;fa fa-search"
+                    - combobox [ref=e129] [cursor=pointer]:
+                      - generic [ref=e132]: 
+                - cell "2" [ref=e134]:
+                  - paragraph [ref=e135]:
+                    - generic [ref=e136]: "2"
+                - cell "CARNE SOCIAL" [ref=e137]:
+                  - paragraph [ref=e138]:
+                    - generic [ref=e139]: CARNE SOCIAL
+                - cell "390,00" [ref=e140]:
+                  - paragraph [ref=e141]:
+                    - generic [ref=e142]: 390,00
+                - cell "27/04/26 11:13" [ref=e143]:
+                  - paragraph [ref=e144]:
+                    - generic [ref=e145]: 27/04/26 11:13
+                - cell [ref=e146]:
+                  - generic:
+                    - checkbox [checked] [disabled]: 
+              - row ";fa fa-bars 3 INVITACION SOCIAL 1100,00 27/04/26 11:13" [ref=e147]:
+                - cell ";fa fa-bars" [ref=e148]:
+                  - generic [ref=e149]:
+                    - combobox:
+                      - option ";fa fa-bars" [selected]
+                      - option "Visualizar;fa fa-search"
+                    - combobox [ref=e150] [cursor=pointer]:
+                      - generic [ref=e153]: 
+                - cell "3" [ref=e155]:
+                  - paragraph [ref=e156]:
+                    - generic [ref=e157]: "3"
+                - cell "INVITACION SOCIAL" [ref=e158]:
+                  - paragraph [ref=e159]:
+                    - generic [ref=e160]: INVITACION SOCIAL
+                - cell "1100,00" [ref=e161]:
+                  - paragraph [ref=e162]:
+                    - generic [ref=e163]: 1100,00
+                - cell "27/04/26 11:13" [ref=e164]:
+                  - paragraph [ref=e165]:
+                    - generic [ref=e166]: 27/04/26 11:13
+                - cell [ref=e167]:
+                  - generic:
+                    - checkbox [checked] [disabled]: 
+              - row ";fa fa-bars 4 CANTINA ALQUILER 0,00 27/04/26 11:13" [ref=e168]:
+                - cell ";fa fa-bars" [ref=e169]:
+                  - generic [ref=e170]:
+                    - combobox:
+                      - option ";fa fa-bars" [selected]
+                      - option "Visualizar;fa fa-search"
+                    - combobox [ref=e171] [cursor=pointer]:
+                      - generic [ref=e174]: 
+                - cell "4" [ref=e176]:
+                  - paragraph [ref=e177]:
+                    - generic [ref=e178]: "4"
+                - cell "CANTINA ALQUILER" [ref=e179]:
+                  - paragraph [ref=e180]:
+                    - generic [ref=e181]: CANTINA ALQUILER
+                - cell "0,00" [ref=e182]:
+                  - paragraph [ref=e183]:
+                    - generic [ref=e184]: 0,00
+                - cell "27/04/26 11:13" [ref=e185]:
+                  - paragraph [ref=e186]:
+                    - generic [ref=e187]: 27/04/26 11:13
+                - cell [ref=e188]:
+                  - generic:
+                    - checkbox [checked] [disabled]: 
+              - row ";fa fa-bars 5 VARIOS 0,00 27/04/26 11:13" [ref=e189]:
+                - cell ";fa fa-bars" [ref=e190]:
+                  - generic [ref=e191]:
+                    - combobox:
+                      - option ";fa fa-bars" [selected]
+                      - option "Visualizar;fa fa-search"
+                    - combobox [ref=e192] [cursor=pointer]:
+                      - generic [ref=e195]: 
+                - cell "5" [ref=e197]:
+                  - paragraph [ref=e198]:
+                    - generic [ref=e199]: "5"
+                - cell "VARIOS" [ref=e200]:
+                  - paragraph [ref=e201]:
+                    - generic [ref=e202]: VARIOS
+                - cell "0,00" [ref=e203]:
+                  - paragraph [ref=e204]:
+                    - generic [ref=e205]: 0,00
+                - cell "27/04/26 11:13" [ref=e206]:
+                  - paragraph [ref=e207]:
+                    - generic [ref=e208]: 27/04/26 11:13
+                - cell [ref=e209]:
+                  - generic:
+                    - checkbox [checked] [disabled]: 
+              - row ";fa fa-bars 6 CUOTA SOCIAL DEUDA 0,00 27/04/26 11:13" [ref=e210]:
+                - cell ";fa fa-bars" [ref=e211]:
+                  - generic [ref=e212]:
+                    - combobox:
+                      - option ";fa fa-bars" [selected]
+                      - option "Visualizar;fa fa-search"
+                    - combobox [ref=e213] [cursor=pointer]:
+                      - generic [ref=e216]: 
+                - cell "6" [ref=e218]:
+                  - paragraph [ref=e219]:
+                    - generic [ref=e220]: "6"
+                - cell "CUOTA SOCIAL DEUDA" [ref=e221]:
+                  - paragraph [ref=e222]:
+                    - generic [ref=e223]: CUOTA SOCIAL DEUDA
+                - cell "0,00" [ref=e224]:
+                  - paragraph [ref=e225]:
+                    - generic [ref=e226]: 0,00
+                - cell "27/04/26 11:13" [ref=e227]:
+                  - paragraph [ref=e228]:
+                    - generic [ref=e229]: 27/04/26 11:13
+                - cell [ref=e230]:
+                  - generic:
+                    - checkbox [checked] [disabled]: 
+              - row ";fa fa-bars 7 COLONIA ADAPTACIÓN 3430,00 27/04/26 11:13" [ref=e231]:
+                - cell ";fa fa-bars" [ref=e232]:
+                  - generic [ref=e233]:
+                    - combobox:
+                      - option ";fa fa-bars" [selected]
+                      - option "Visualizar;fa fa-search"
+                    - combobox [ref=e234] [cursor=pointer]:
+                      - generic [ref=e237]: 
+                - cell "7" [ref=e239]:
+                  - paragraph [ref=e240]:
+                    - generic [ref=e241]: "7"
+                - cell "COLONIA ADAPTACIÓN" [ref=e242]:
+                  - paragraph [ref=e243]:
+                    - generic [ref=e244]: COLONIA ADAPTACIÓN
+                - cell "3430,00" [ref=e245]:
+                  - paragraph [ref=e246]:
+                    - generic [ref=e247]: 3430,00
+                - cell "27/04/26 11:13" [ref=e248]:
+                  - paragraph [ref=e249]:
+                    - generic [ref=e250]: 27/04/26 11:13
+                - cell [ref=e251]:
+                  - generic:
+                    - checkbox [checked] [disabled]: 
+              - row ";fa fa-bars 8 SOCIO TURISTA 0,00 27/04/26 11:13" [ref=e252]:
+                - cell ";fa fa-bars" [ref=e253]:
+                  - generic [ref=e254]:
+                    - combobox:
+                      - option ";fa fa-bars" [selected]
+                      - option "Visualizar;fa fa-search"
+                    - combobox [ref=e255] [cursor=pointer]:
+                      - generic [ref=e258]: 
+                - cell "8" [ref=e260]:
+                  - paragraph [ref=e261]:
+                    - generic [ref=e262]: "8"
+                - cell "SOCIO TURISTA" [ref=e263]:
+                  - paragraph [ref=e264]:
+                    - generic [ref=e265]: SOCIO TURISTA
+                - cell "0,00" [ref=e266]:
+                  - paragraph [ref=e267]:
+                    - generic [ref=e268]: 0,00
+                - cell "27/04/26 11:13" [ref=e269]:
+                  - paragraph [ref=e270]:
+                    - generic [ref=e271]: 27/04/26 11:13
+                - cell [ref=e272]:
+                  - generic:
+                    - checkbox [checked] [disabled]: 
+              - row ";fa fa-bars 9 PARRILLERO Socios 16000,00 27/04/26 11:13" [ref=e273]:
+                - cell ";fa fa-bars" [ref=e274]:
+                  - generic [ref=e275]:
+                    - combobox:
+                      - option ";fa fa-bars" [selected]
+                      - option "Visualizar;fa fa-search"
+                    - combobox [ref=e276] [cursor=pointer]:
+                      - generic [ref=e279]: 
+                - cell "9" [ref=e281]:
+                  - paragraph [ref=e282]:
+                    - generic [ref=e283]: "9"
+                - cell "PARRILLERO Socios" [ref=e284]:
+                  - paragraph [ref=e285]:
+                    - generic [ref=e286]: PARRILLERO Socios
+                - cell "16000,00" [ref=e287]:
+                  - paragraph [ref=e288]:
+                    - generic [ref=e289]: 16000,00
+                - cell "27/04/26 11:13" [ref=e290]:
+                  - paragraph [ref=e291]:
+                    - generic [ref=e292]: 27/04/26 11:13
+                - cell [ref=e293]:
+                  - generic:
+                    - checkbox [checked] [disabled]: 
+              - row ";fa fa-bars 10 MASAJES 0,00 27/04/26 11:13" [ref=e294]:
+                - cell ";fa fa-bars" [ref=e295]:
+                  - generic [ref=e296]:
+                    - combobox:
+                      - option ";fa fa-bars" [selected]
+                      - option "Visualizar;fa fa-search"
+                    - combobox [ref=e297] [cursor=pointer]:
+                      - generic [ref=e300]: 
+                - cell "10" [ref=e302]:
+                  - paragraph [ref=e303]:
+                    - generic [ref=e304]: "10"
+                - cell "MASAJES" [ref=e305]:
+                  - paragraph [ref=e306]:
+                    - generic [ref=e307]: MASAJES
+                - cell "0,00" [ref=e308]:
+                  - paragraph [ref=e309]:
+                    - generic [ref=e310]: 0,00
+                - cell "27/04/26 11:13" [ref=e311]:
+                  - paragraph [ref=e312]:
+                    - generic [ref=e313]: 27/04/26 11:13
+                - cell [ref=e314]:
+                  - generic:
+                    - checkbox [checked] [disabled]: 
+            - rowgroup
+          - generic [ref=e318]:
+            - list [ref=e320]:
+              - listitem [ref=e321]:
+                - generic [ref=e322]: Ant
+              - listitem [ref=e323]:
+                - link "1" [ref=e324]:
+                  - /url: "#"
+              - listitem [ref=e325]:
+                - link "2" [ref=e326] [cursor=pointer]:
+                  - /url: "#"
+              - listitem [ref=e327]:
+                - link "3" [ref=e328] [cursor=pointer]:
+                  - /url: "#"
+              - listitem [ref=e329]:
+                - link "4" [ref=e330] [cursor=pointer]:
+                  - /url: "#"
+              - listitem [ref=e331]:
+                - link "5" [ref=e332] [cursor=pointer]:
+                  - /url: "#"
+              - listitem [ref=e333]:
+                - link "Sig" [ref=e334] [cursor=pointer]:
+                  - /url: "#"
+            - button "Página 1 de 31" [ref=e337] [cursor=pointer]
+    - generic [ref=e342]:
+      - generic [ref=e344]:
+        - textbox "Buscar opción del menú..." [ref=e345]
+        - generic [ref=e346]: 
+        - text: 
+      - list [ref=e347]:
+        - listitem [ref=e348]: Opciones
+        - listitem
+        - listitem [ref=e349]:
+          - link " Inicio" [ref=e350] [cursor=pointer]:
+            - /url: com.bigua.serviciosmedicos.homeserviciosmedicos
+            - generic [ref=e351]: 
+            - text: Inicio
+        - listitem
+        - listitem [ref=e352]:
+          - link " Reservar turno" [ref=e353] [cursor=pointer]:
+            - /url: com.bigua.serviciosmedicos.wpreservarturno
+            - generic [ref=e354]: 
+            - text: Reservar turno
+        - listitem
+        - listitem [ref=e355]:
+          - link " Mi agenda" [ref=e356] [cursor=pointer]:
+            - /url: com.bigua.serviciosmedicos.consultainscripcionmiagendaww
+            - generic [ref=e357]: 
+            - text: Mi agenda
+        - listitem
+        - listitem [ref=e358]:
+          - link " Turnos" [ref=e359] [cursor=pointer]:
+            - /url: com.bigua.serviciosmedicos.turnoespecialidadlistww
+            - generic [ref=e360]: 
+            - text: Turnos
+        - listitem
+        - listitem [ref=e361]:
+          - link " Generar Turnos" [ref=e362] [cursor=pointer]:
+            - /url: com.bigua.serviciosmedicos.wpcrearturnos
+            - generic [ref=e363]: 
+            - text: Generar Turnos
+        - listitem
+        - listitem [ref=e364]:
+          - link " Inscripciones" [ref=e365] [cursor=pointer]:
+            - /url: com.bigua.serviciosmedicos.consultainscripcionww
+            - generic [ref=e366]: 
+            - text: Inscripciones
+        - listitem [ref=e367]:
+          - link " Catálogos " [ref=e368] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=e369]: 
+            - text: Catálogos
+            - generic [ref=e370]: 
+          - list [ref=e371]:
+            - listitem
+            - listitem [ref=e372]:
+              - link "Agrupador" [ref=e373] [cursor=pointer]:
+                - /url: com.bigua.serviciosmedicos.turnoagrupadorww
+            - listitem
+            - listitem [ref=e374]:
+              - link "Categorias Socios" [ref=e375] [cursor=pointer]:
+                - /url: com.bigua.backoffice.categoriasocioww
+            - listitem
+            - listitem [ref=e376]:
+              - link "Consultorios" [ref=e377] [cursor=pointer]:
+                - /url: com.bigua.serviciosmedicos.consultorioww
+            - listitem
+            - listitem [ref=e378]:
+              - link "Especialidades" [ref=e379] [cursor=pointer]:
+                - /url: com.bigua.serviciosmedicos.especialidadww
+            - listitem
+            - listitem [ref=e380]:
+              - link "Especialistas" [ref=e381] [cursor=pointer]:
+                - /url: com.bigua.serviciosmedicos.especialistaww
+            - listitem
+            - listitem [ref=e382]:
+              - link "Planteles Deportivos" [ref=e383] [cursor=pointer]:
+                - /url: com.bigua.serviciosmedicos.plantelww
+            - listitem
+            - listitem [ref=e384]:
+              - link "Productos y Servicios" [ref=e385] [cursor=pointer]:
+                - /url: com.bigua.serviciosmedicos.productoww
+            - listitem
+            - listitem [ref=e386]:
+              - link "Rubros" [ref=e387] [cursor=pointer]:
+                - /url: com.bigua.serviciosmedicos.rubroww
+        - listitem [ref=e388]:
+          - link " Seguridad " [ref=e389] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=e390]: 
+            - text: Seguridad
+            - generic [ref=e391]: 
+          - text:          
+        - listitem
+        - listitem [ref=e392]:
+          - link "Cerrar sesión" [ref=e393] [cursor=pointer]:
+            - /url: com.bigua.serviciosmedicos.ingresoserviciosmedicos
+    - generic [ref=e396]: Biguá 2022

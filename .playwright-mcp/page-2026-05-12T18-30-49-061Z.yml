@@ -1,0 +1,17 @@
+- generic [ref=e173]:
+  - button "Submit" [disabled] [ref=e174]
+  - generic [ref=e187]:
+    - generic [ref=e190]: INGRESAR
+    - generic [ref=e193]:
+      - textbox "Usuario Documento Nro Str" [active] [ref=e197]:
+        - /placeholder: Número de Documento
+      - textbox "User Password" [ref=e201]:
+        - /placeholder: Contraseña
+      - link "Olvidé mi contraseña" [ref=e205] [cursor=pointer]:
+        - /url: javascript:void(0)
+      - generic: 
+      - generic: 
+      - button "Iniciar sesión" [ref=e208] [cursor=pointer]
+      - link "Registrarse" [ref=e212] [cursor=pointer]:
+        - /url: com.bigua.registrousuarionuevo?_T4CyaweZdUVHOw7h4LBwGyqgHADvRK69gZBBgSEqMUdFXz8QoER1MDkxLGjF6XS
+    - generic [ref=e214]:    

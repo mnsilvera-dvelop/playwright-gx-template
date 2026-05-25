@@ -1,0 +1,76 @@
+- generic [ref=e2]:
+  - button "Submit" [disabled] [ref=e3]
+  - generic [ref=e8]:
+    - generic [ref=e10]:
+      - table [ref=e12]:
+        - rowgroup [ref=e13]:
+          - row [ref=e14]:
+            - cell [ref=e15]
+      - generic [ref=e57]:
+        - button "Mi Cuenta" [ref=e58] [cursor=pointer]: Mi Cuenta
+        - text:  
+      - link "" [ref=e19] [cursor=pointer]:
+        - /url: javascript:void(0)
+        - generic [ref=e20]: 
+    - generic [ref=e28]: Servicios Médicos
+    - generic [ref=e132]:
+      - generic [ref=e134]:
+        - textbox "Buscar opción del menú..." [ref=e135]
+        - generic [ref=e136]: 
+        - text: 
+      - list [ref=e138]:
+        - listitem [ref=e139]: Opciones
+        - listitem
+        - listitem [ref=e140]:
+          - link " Inicio" [ref=e141] [cursor=pointer]:
+            - /url: com.bigua.serviciosmedicos.homeserviciosmedicos
+            - generic [ref=e142]: 
+            - text: Inicio
+        - listitem
+        - listitem [ref=e143]:
+          - link " Reservar turno" [ref=e144] [cursor=pointer]:
+            - /url: com.bigua.serviciosmedicos.wpreservarturno
+            - generic [ref=e145]: 
+            - text: Reservar turno
+        - listitem
+        - listitem [ref=e146]:
+          - link " Mi agenda" [ref=e147] [cursor=pointer]:
+            - /url: com.bigua.serviciosmedicos.consultainscripcionmiagendaww
+            - generic [ref=e148]: 
+            - text: Mi agenda
+        - listitem
+        - listitem [ref=e149]:
+          - link " Turnos" [ref=e150] [cursor=pointer]:
+            - /url: com.bigua.serviciosmedicos.turnoespecialidadlistww
+            - generic [ref=e151]: 
+            - text: Turnos
+        - listitem
+        - listitem [ref=e152]:
+          - link " Generar Turnos" [ref=e153] [cursor=pointer]:
+            - /url: com.bigua.serviciosmedicos.wpcrearturnos
+            - generic [ref=e154]: 
+            - text: Generar Turnos
+        - listitem
+        - listitem [ref=e155]:
+          - link " Inscripciones" [ref=e156] [cursor=pointer]:
+            - /url: com.bigua.serviciosmedicos.consultainscripcionww
+            - generic [ref=e157]: 
+            - text: Inscripciones
+        - listitem [ref=e158]:
+          - link " Catálogos " [ref=e159] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=e160]: 
+            - text: Catálogos
+            - generic [ref=e161]: 
+        - listitem [ref=e162]:
+          - link " Seguridad " [ref=e163] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=e164]: 
+            - text: Seguridad
+            - generic [ref=e165]: 
+          - text:          
+        - listitem
+        - listitem [ref=e166]:
+          - link "Cerrar sesión" [ref=e167] [cursor=pointer]:
+            - /url: com.bigua.serviciosmedicos.ingresoserviciosmedicos
+    - generic [ref=e47]: Biguá 2022
